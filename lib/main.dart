@@ -3,6 +3,12 @@ import 'NavigationIconView.dart';
 import 'AchievementView.dart';
 import 'NetDemo.dart';
 import 'ReadAndWrite.dart';
+import 'LinearProgressIndicator.dart';
+import 'ScrollableTabsDemo.dart';
+import 'CarcTabsDemo.dart';
+import 'BottomSheetDemo.dart';
+import 'DynamicBottomSheetDemo.dart';
+import 'FormFieldDemo.dart';
 
 // 创建类，自定义图标，继承StatelessWidget（无状态的控件）
 class CustomIcon extends StatelessWidget {
@@ -236,7 +242,7 @@ void main() {
     // 在窗口管理器中使用此应用程序的单行描述
     title: 'Flutter',
     // 程序的默认路由的控件
-    home: new ReadAndWriteDemo(),
+    home: new FormFieldDemo(),
   ));
 }
 
